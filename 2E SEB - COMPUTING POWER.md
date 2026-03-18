@@ -26,9 +26,9 @@ To write a Python program to compute the power of a given number using an approp
 #Reg.no 212222060266
 #Name SWARNA MALLIKA PL
 
-x=int(input()) <br />
-y=int(input()) <br />
-z=pow(x,y)  <br />
+x=int(input()) 
+y=int(input()) 
+z=pow(x,y)  
 print(z) 
 ```
 ### OUTPUT
