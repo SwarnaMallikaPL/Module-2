@@ -26,15 +26,14 @@ To write a Python program to compute the power of a given number using an approp
 #Reg.no 212222060266
 #Name SWARNA MALLIKA PL
 
-a=input()
-b=len (a)
-print("The number of digits in the number are:",b)
+x=int(input()) <br />
+y=int(input()) <br />
+z=pow(x,y)  <br />
+print(z) 
 ```
 ### OUTPUT
 
-<img width="992" height="256" alt="image" src="https://github.com/user-attachments/assets/f21a17e1-8b55-4da5-a8b1-27cdae47d095" />
-
+![Screenshot 2025-04-30 094127](https://github.com/user-attachments/assets/94bb2b6d-60b5-44e1-baee-aa89a1d3e803)
 
 ### RESULT
-
-Thus the python program to count the number of digits in a number has been implemented and executed successfully.
+Thus,the given python program is implemented and executed sucessfully.
