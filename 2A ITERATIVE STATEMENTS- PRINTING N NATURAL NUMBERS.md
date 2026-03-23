@@ -1,45 +1,45 @@
-# Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
 
-### AIM  
+# Exp. No: 2a  
+## ITERATIVE STATEMENTS – PRINTING N NATURAL NUMBERS
 
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+###  Aim
+To create a Python program for printing `n` natural numbers using a `for` loop.
 
-### ALGORITHM
+---
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect 
-      number.  
-5. Terminate the program.
+###  Algorithm
 
-### PROGRAM
-```
-#Reg.no 212222060266
-#Name SWARNA MALLIKA PL
+1. Begin the program.
+2. Use `input()` to read the value of `n` (the upper limit) from the user.
+3. Convert the input to an integer.
+4. Display the message **"Natural Numbers are :"**.
+5. Use a `for` loop to iterate from 1 to `n` (inclusive).
+6. In each iteration, print the current value of `i`.
+7. Terminate the program.
 
-def perfect_num(num):
-  
-    sume=0  
-    for i in range(1,num):  
-        if (num%i==0):  
-            sume=sume+i  
-    if(sume==num):  
-        print("The number is a Perfect number!")  
-    else:  
-        print("The number is not a Perfect number!") 
+---
 
-num=int(input())
-perfect_num(num)
+### 🧾 Program
+
+```python
+#Reg.no: 212222060266
+#Name: SWARNA MALLIKA PL
+
+a=int(input())
+print("Natural Numbers are :")
+for i in range(1,a+1):
+    print(i)
+
+
 ```
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/e72df6ad-6076-4a18-b1ed-b680a62155ab)
+<img width="717" height="674" alt="image" src="https://github.com/user-attachments/assets/9f4fe8d1-051c-4a1f-98cd-f9981b7777d9" /> 
+
+
 
 ### RESULT
-Thus the Python program to check whether a number is a Perfect Number using functions was executed successfully and the output was verified.
+```
+Thus the Python program to print n natural numbers using a for loop was executed successfully and the output was verified.
+
+```
