@@ -24,13 +24,13 @@ To write a Python program to check if a number is a Perfect number using the con
 ```
 #Reg.No:212222060266
 #Name:SWARNA MALLIKA PL
+
 def perfect_num(num):
-  
-    sume=0  
+    sum=0  
     for i in range(1,num):  
         if (num%i==0):  
-            sume=sume+i  
-    if(sume==num):  
+            sum=sum+i  
+    if(sum==num):  
         print("The number is a Perfect number!")  
     else:  
         print("The number is not a Perfect number!") 
